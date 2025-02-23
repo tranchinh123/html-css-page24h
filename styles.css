@@ -158,6 +158,57 @@ hr {
   color: white;
 }
 
+.news__content-image {
+  width: 500px;
+  height: 333px;
+}
+
+/* main */
+
+.main-content {
+  max-width: 1100px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+/* news */
+.news__content {
+  display: flex;
+}
+
+.news__content-main {
+  display: flex;
+  margin-right: 20px;
+}
+
+.news__content-column-1 {
+  max-width: 500px;
+}
+
+.news__content-images-columns-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.news__content-images-columns-list-item {
+  padding-right: 30px;
+}
+
+.news__content-list {
+  list-style: none;
+}
+.news__content-images-columns-list-item {
+  max-width: 146px;
+  height: 207px;
+}
+
+.news__content-images-columns-list-item-image {
+  max-width: 146px;
+  height: 97px;
+}
+
+/* container */
 .container {
   width: 730px;
   display: inline-block;
