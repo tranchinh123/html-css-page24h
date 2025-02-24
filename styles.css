@@ -205,7 +205,144 @@ hr {
 
 .news__content-images-columns-list-item-image {
   max-width: 146px;
-  height: 97px;
+}
+
+.news__content-images-columns-list-item h4 {
+  color: #252525;
+  font-size: 14px;
+}
+
+.news__content-list .news__content-list-item p {
+  font-size: 12px;
+  color: #78b43d;
+}
+
+.news__content-list .news__content-list-item span {
+  font-size: 15px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+/* news-sport */
+.news-sport {
+  margin-top: 20px;
+}
+
+.header__news-sport {
+  display: flex;
+  height: 35px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.header__news-sport h2 {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.header__news-sport h2 img {
+  height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.header__news-sport ul li {
+  color: #ffffff;
+  background: #3d195b;
+  padding: 5px 10px;
+  border-radius: 999px;
+  margin-right: 20px;
+}
+
+.header__news-sport ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.news-sport__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.news-sport__list-item {
+  width: 218px;
+  height: 219px;
+  padding: 0 15px;
+}
+
+.news-sport__list-item-image {
+  width: 100%;
+}
+
+/* news-daily */
+.news-daily__content-left {
+  float: left;
+  width: 520px;
+}
+
+.news-daily__content-right {
+  float: right;
+  width: 520px;
+}
+
+.news-daily__content-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-daily__content-header-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.news-daily__content-header-list-item {
+  padding-right: 15px;
+  color: #666;
+}
+
+.news-daily__content-header-list-item-main {
+  color: #78b462;
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.news-daily__main-item {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.news-daily__main-item img {
+  width: 245px;
+  height: 153px;
+  margin-right: 20px;
+}
+
+.news-daily__main-item-content span {
+  color: #7d7d7d;
+  font-size: 13px;
+}
+
+.news-daily__content-list-item-list-news {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.news-daily__content-list-item ul li img {
+  width: 152px;
+  height: 104px;
+}
+
+.news-daily__content-list-item ul li img {
+  color: #252525;
+  font-size: 14px;
 }
 
 /* container */
